@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Device Solutions | Core Ascent Health</title>
+    <meta name="description" content="Advanced medical device solutions including neuromodulation therapy for chronic pain and connected medication management technology for adherence and remote monitoring.">
+    <link rel="canonical" href="https://coreascent.health/medical-devices">
+    <meta property="og:title" content="Medical Device Solutions | Core Ascent Health">
+    <meta property="og:description" content="Neuromodulation therapy and connected medication management devices for healthcare providers.">
+    <meta property="og:url" content="https://coreascent.health/medical-devices">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://coreascent.net/favicon.png">
+    <script async src="https://plausible.io/js/pa-Kb3mWyqTpiRj38JkyvNPd.js"></script>
+    <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
+    <style>
+        :root { --navy: #183459; --navy-dark: #0f2340; --gold: #CB9F3C; --gold-light: #d9b35a; --gray: #7B7F7E; --teal: #0D9488; --teal-dark: #0f766e; --off-white: #f8f9fa; --white: #ffffff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; } html { scroll-behavior: smooth; } body { font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--navy); line-height: 1.6; background: var(--white); } h1, h2, h3, h4 { font-weight: 700; line-height: 1.2; }
+        header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--white); border-bottom: 1px solid rgba(24, 52, 89, 0.1); transition: box-shadow 0.3s ease; } header.scrolled { box-shadow: 0 2px 20px rgba(24, 52, 89, 0.1); } .header-inner { max-width: 1200px; margin: 0 auto; padding: 0.5rem 2rem; display: flex; justify-content: space-between; align-items: center; } .logo { display: flex; align-items: center; text-decoration: none; } .logo img { height: 70px; width: auto; } nav { display: flex; gap: 2rem; align-items: center; } nav a { text-decoration: none; color: var(--navy); font-weight: 500; font-size: 0.95rem; transition: color 0.2s ease; } nav a:hover { color: var(--teal); } .cta-btn { background: var(--teal); color: var(--white) !important; padding: 0.6rem 1.5rem; border-radius: 4px; transition: background 0.2s ease, transform 0.2s ease; } .cta-btn:hover { background: var(--teal-dark); transform: translateY(-1px); }
+        .hero { min-height: 50vh; display: flex; align-items: center; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%); position: relative; overflow: hidden; padding-top: 80px; } .hero::before { content: ''; position: absolute; top: -50%; right: -20%; width: 80%; height: 200%; background: radial-gradient(ellipse, rgba(13,148,136,0.15) 0%, transparent 70%); pointer-events: none; } .hero-inner { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; text-align: center; position: relative; z-index: 1; } .hero .breadcrumb { font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 1rem; } .hero .breadcrumb a { color: rgba(255,255,255,0.6); text-decoration: none; } .hero .breadcrumb a:hover { color: var(--gold); } .hero .sub { font-size: 0.95rem; color: var(--gold); font-weight: 400; text-transform: uppercase; letter-spacing: 0.15em; margin-bottom: 1rem; } .hero h1 { font-size: clamp(2rem, 4.5vw, 3rem); color: var(--white); margin-bottom: 1.5rem; font-weight: 800; letter-spacing: -0.02em; } .hero p { font-size: 1.1rem; color: rgba(255,255,255,0.85); margin-bottom: 2rem; max-width: 650px; margin-left: auto; margin-right: auto; font-weight: 300; } .hero-cta { display: inline-block; background: var(--teal); color: var(--white); padding: 1rem 2.5rem; border-radius: 4px; font-weight: 700; font-size: 1rem; text-decoration: none; transition: all 0.3s ease; } .hero-cta:hover { background: var(--teal-dark); transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .device-section { padding: 5rem 2rem; } .device-section:nth-child(even) { background: var(--off-white); } .device-inner { max-width: 1000px; margin: 0 auto; } .device-header { margin-bottom: 2.5rem; } .device-header .label { display: inline-block; background: rgba(13,148,136,0.1); color: var(--teal); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; padding: 0.4rem 1rem; border-radius: 50px; margin-bottom: 1rem; } .device-header h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); color: var(--navy); margin-bottom: 0.75rem; } .device-header p.desc { font-size: 1.05rem; color: var(--gray); max-width: 700px; line-height: 1.7; }
+        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; } .feature-item { background: var(--white); border: 1px solid rgba(24,52,89,0.08); border-radius: 8px; padding: 1.5rem; } .feature-item h4 { font-size: 0.95rem; color: var(--navy); margin-bottom: 0.5rem; } .feature-item p { font-size: 0.88rem; color: var(--gray); line-height: 1.6; }
+        .audience-fit { margin-top: 2.5rem; } .audience-fit h3 { font-size: 1.1rem; color: var(--navy); margin-bottom: 1rem; } .audience-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; } .tag { background: var(--off-white); border: 1px solid rgba(13,148,136,0.2); color: var(--navy); padding: 0.5rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 500; } .device-section:nth-child(even) .feature-item { background: var(--white); } .device-section:nth-child(even) .tag { background: var(--white); }
+        .cta-section { padding: 5rem 2rem; background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dark) 100%); text-align: center; } .cta-section h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); color: var(--white); margin-bottom: 0.75rem; } .cta-section p { color: rgba(255,255,255,0.9); font-size: 1.05rem; margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto; } .cta-section .hero-cta { background: var(--white); color: var(--teal); } .cta-section .hero-cta:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+        footer { background: var(--navy-dark); padding: 2rem; text-align: center; } footer p { color: rgba(255,255,255,0.5); font-size: 0.85rem; line-height: 1.8; } footer a { color: rgba(255,255,255,0.5); text-decoration: none; } footer a:hover { color: var(--gold); }
+        .mobile-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 5px; } .mobile-toggle span { width: 24px; height: 2px; background: var(--navy); transition: all 0.3s ease; }
+        @media (max-width: 968px) { .features-grid { grid-template-columns: 1fr; max-width: 500px; } }
+        @media (max-width: 768px) { .mobile-toggle { display: flex; } nav { position: fixed; top: 80px; left: 0; right: 0; background: var(--white); flex-direction: column; padding: 2rem; gap: 1.5rem; border-bottom: 1px solid rgba(24,52,89,0.1); transform: translateY(-100%); opacity: 0; pointer-events: none; transition: all 0.3s ease; } nav.open { transform: translateY(0); opacity: 1; pointer-events: all; } }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } } .fade-in { animation: fadeInUp 0.8s ease forwards; } .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.2s; }
+    </style>
+</head>
+<body>
+    <header id="header"><div class="header-inner"><a href="https://coreascent.net" class="logo"><img src="https://coreascent.net/logo.png" alt="Core Ascent"></a><div class="mobile-toggle" onclick="toggleNav()"><span></span><span></span><span></span></div><nav id="nav"><a href="/">All Products</a><a href="#neuromodulation">Neuromodulation</a><a href="#medication-management">Medication Management</a><a href="https://coreascent.net">Main Site</a><a href="/#contact" class="cta-btn">Request Info</a></nav></div></header>
+
+    <section class="hero"><div class="hero-inner"><p class="breadcrumb"><a href="/">Core Ascent Health</a> &nbsp;/&nbsp; Medical Device Solutions</p><p class="sub fade-in">Medical Device Solutions</p><h1 class="fade-in d1">Technology-Driven Patient Care</h1><p class="fade-in d2">Advanced neuromodulation therapy and connected medication management — clinical-grade devices that improve outcomes, streamline workflows, and create new revenue opportunities for your practice.</p><a href="/#contact" class="hero-cta">Request Device Information</a></div></section>
+
+    <section class="device-section" id="neuromodulation"><div class="device-inner">
+        <div class="device-header">
+            <span class="label">Neuromodulation</span>
+            <h2>Advanced Percutaneous Electrical Nerve Stimulation</h2>
+            <p class="desc">A clinically proven, FDA-cleared neuromodulation therapy for chronic pain conditions. This minimally invasive, in-office treatment delivers targeted electrical stimulation to peripheral nerves, offering patients a non-pharmaceutical pathway to meaningful pain relief.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item"><h4>FDA-Cleared &amp; Evidence-Based</h4><p>Backed by Level 1 clinical evidence including double-blind, randomized, placebo-controlled trials demonstrating significant pain reduction.</p></div>
+            <div class="feature-item"><h4>In-Office Procedure</h4><p>Performed as an outpatient procedure in a standard clinical setting — no hospital or surgical center required for most treatments.</p></div>
+            <div class="feature-item"><h4>Favorable Reimbursement</h4><p>Covered by Medicare and commercial payers with established CPT codes. Strong reimbursement profile relative to device cost, with full RCM support available.</p></div>
+            <div class="feature-item"><h4>Non-Pharmaceutical Approach</h4><p>Provides an alternative to long-term medication use for chronic pain, addressing growing demand for non-opioid treatment options.</p></div>
+            <div class="feature-item"><h4>Turnkey Support</h4><p>Comprehensive billing, insurance verification, prior authorization, and claims management support so your practice can focus on patient care.</p></div>
+            <div class="feature-item"><h4>Equipment Financing</h4><p>Flexible equipment financing options available through our capital partners, with terms aligned to your practice's reimbursement cycle.</p></div>
+        </div>
+        <div class="audience-fit">
+            <h3>Ideal For</h3>
+            <div class="audience-tags"><span class="tag">Pain Management</span><span class="tag">Interventional Spine</span><span class="tag">Neurology</span><span class="tag">Internal Medicine</span><span class="tag">Physical Medicine &amp; Rehab</span></div>
+        </div>
+    </div></section>
+
+    <section class="device-section" id="medication-management"><div class="device-inner">
+        <div class="device-header">
+            <span class="label">Connected Medication Management</span>
+            <h2>Smart Medication Adherence Technology</h2>
+            <p class="desc">A connected, IoT-enabled medication management platform that helps patients stay on track with their prescriptions while giving providers real-time adherence data and remote therapeutic monitoring capabilities.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item"><h4>IoT-Connected Device</h4><p>Cellular-enabled smart device syncs with a companion app to track medication schedules, send automated reminders, and log adherence data in real time.</p></div>
+            <div class="feature-item"><h4>Remote Therapeutic Monitoring</h4><p>Integrates with RTM workflows, enabling providers to monitor patient adherence remotely and bill under applicable Medicare and commercial codes.</p></div>
+            <div class="feature-item"><h4>Provider Care Platform</h4><p>Dashboard gives care teams visibility into patient medication adherence trends, enabling proactive interventions and improved outcomes tracking.</p></div>
+            <div class="feature-item"><h4>Patient-Friendly Design</h4><p>Intuitive setup, audio-assisted guidance, and a companion mobile app make it accessible for patients of all ages and technical comfort levels.</p></div>
+            <div class="feature-item"><h4>Multi-Medication Tracking</h4><p>Tracks multiple medications simultaneously with scheduled alerts, ensuring comprehensive adherence across complex medication regimens.</p></div>
+            <div class="feature-item"><h4>Dual Revenue Channel</h4><p>Available for both provider deployment and direct-to-patient fulfillment, creating flexible distribution and revenue opportunities.</p></div>
+        </div>
+        <div class="audience-fit">
+            <h3>Ideal For</h3>
+            <div class="audience-tags"><span class="tag">Primary Care</span><span class="tag">Internal Medicine</span><span class="tag">Pharmacies</span><span class="tag">Pain Management</span><span class="tag">Chronic Care Management</span><span class="tag">Senior Care</span></div>
+        </div>
+    </div></section>
+
+    <section class="cta-section"><h2>Interested in Adding Devices to Your Practice?</h2><p>Tell us about your practice and which solutions interest you. We'll connect you with the right resources and pricing.</p><a href="/#contact" class="hero-cta">Request Information</a></section>
+
+    <footer>
+        <p>&copy; 2026 Core Ascent L.L.C. All rights reserved. &nbsp;|&nbsp; <a href="https://coreascent.net">coreascent.net</a> &nbsp;|&nbsp; <a href="tel:+18557142673">(855) 714-CORE</a> &nbsp;|&nbsp; <a href="mailto:info@coreascent.net">info@coreascent.net</a></p>
+        <p style="margin-top:6px"><a href="https://coreascent.net/privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="https://coreascent.net/terms.html">Terms of Use</a> &nbsp;|&nbsp; <a href="https://coreascent.net/sms-terms.html">SMS Terms</a></p>
+        <p style="margin-top:10px; font-size:0.75rem; max-width:700px; margin-left:auto; margin-right:auto; line-height:1.6;">Medical devices referenced on this page are manufactured by their respective companies. Core Ascent L.L.C. facilitates distribution and sales support. All devices are subject to applicable FDA clearances and regulatory requirements. Contact your Core Ascent representative for complete product specifications and clinical documentation.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() { document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50); });
+        function toggleNav() { document.getElementById('nav').classList.toggle('open'); }
+        document.querySelectorAll('nav a').forEach(function(link) { link.addEventListener('click', function() { document.getElementById('nav').classList.remove('open'); }); });
+    </script>
+</body>
+</html>
